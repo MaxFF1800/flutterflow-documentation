@@ -66,7 +66,6 @@ const config: Config = {
         src: '/logos/logoMark_outlinePrimary_transparent.svg',
       },
       items: [
-
         {
           type: 'doc',
           docId: 'marketplace/index',
@@ -78,6 +77,12 @@ const config: Config = {
           docId: 'troubleshooting/index',
           position: 'left',
           label: 'Troubleshooting',
+        },
+        {
+          type: 'doc',
+          docId: 'support-docs/index',
+          position: 'left',
+          label: 'Support Docs',
         },
         {
           href: 'https://github.com/FlutterFlow/flutterflow-documentation',
